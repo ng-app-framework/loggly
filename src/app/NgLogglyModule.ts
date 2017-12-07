@@ -1,25 +1,25 @@
 import {ModuleWithProviders, NgModule} from '@angular/core';
 import {LogglyLogger} from "./Service/LogglyLogger";
 import {LogglyConfig} from "./Structure/LogglyConfig";
-import {CoreModule} from "@ng-app-framework/core";
-import {SessionModule} from "@ng-app-framework/session";
-import {LoggingModule, EventLogger} from "@ng-app-framework/logging";
+import {NgCoreModule} from "@ng-app-framework/core";
+import {NgSessionModule} from "@ng-app-framework/session";
+import {NgLoggingModule, EventLogger} from "@ng-app-framework/logging";
 
 
 @NgModule({
     imports  : [
-        CoreModule,
-        LoggingModule,
-        SessionModule
+        NgCoreModule,
+        NgLoggingModule,
+        NgSessionModule
     ],
     exports  : [
-        LoggingModule
+        NgLoggingModule
     ],
     providers: [
         LogglyLogger
     ]
 })
-export class LogglyModule {
+export class NgLogglyModule {
 
 
     constructor(eventLogger: EventLogger, remoteLogger: LogglyLogger) {
@@ -30,7 +30,7 @@ export class LogglyModule {
 
     static forRoot(config: LogglyConfig): ModuleWithProviders {
         return {
-            ngModule : LogglyModule,
+            ngModule : NgLogglyModule,
             providers: [{
                 provide : LogglyConfig,
                 useValue: config
