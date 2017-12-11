@@ -4,11 +4,13 @@ import {LogglyConfig} from "./Structure/LogglyConfig";
 import {NgCoreModule} from "@ng-app-framework/core";
 import {NgSessionModule} from "@ng-app-framework/session";
 import {NgLoggingModule, EventLogger} from "@ng-app-framework/logging";
+import {NgAccessModule} from "@ng-app-framework/access";
 
 
 @NgModule({
     imports  : [
         NgCoreModule,
+        NgAccessModule,
         NgLoggingModule,
         NgSessionModule
     ],
