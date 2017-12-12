@@ -19,15 +19,15 @@
   },
   "private": false,
   "dependencies": {
-    "loggly-jslogger": "^2.2.2",
-    "json-stringify-safe": "^5.0.1",
-    "@angular/core": "^5.1.0",
     "@angular/common": "^5.1.0",
+    "@angular/core": "^5.1.0",
     "@angular/router": "^5.1.0",
-    "rxjs": "^5.5.5",
-    "@ng-app-framework/core": "^1.0.4",
+    "@ng-app-framework/core": "^1.0.5",
     "@ng-app-framework/logging": "^1.0.4",
-    "@ng-app-framework/session": "^1.0.4"
+    "@ng-app-framework/session": "^1.0.4",
+    "json-stringify-safe": "^5.0.1",
+    "loggly-jslogger": "^2.2.2",
+    "rxjs": "^5.5.5"
   },
   "devDependencies": {
     "@angular/cli": "^1.6.0",
