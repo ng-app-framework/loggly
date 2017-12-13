@@ -22,9 +22,9 @@
     "@angular/common": "^5.1.0",
     "@angular/core": "^5.1.0",
     "@angular/router": "^5.1.0",
-    "@ng-app-framework/core": "^1.1.1",
-    "@ng-app-framework/logging": "^1.1.1",
-    "@ng-app-framework/session": "^1.1.2",
+    "@ng-app-framework/core": "^1.1.6",
+    "@ng-app-framework/logging": "^1.1.6",
+    "@ng-app-framework/session": "^1.1.6",
     "json-stringify-safe": "^5.0.1",
     "loggly-jslogger": "^2.2.2",
     "rxjs": "^5.5.5"
