@@ -15,14 +15,6 @@
       "es2015",
       "es2017"
     ],
-    "paths": {
-      "@angular/*": [
-        "./node_modules/@angular/*"
-      ],
-      "@ng-app-framework/*": [
-        "./node_modules/@ng-app-framework/*"
-      ]
-    },
     "typeRoots": [
       "./node_modules/@types"
     ]
